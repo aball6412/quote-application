@@ -1,0 +1,184 @@
+/* -- General -- */
+body {
+    background: #E9F0F8;
+}
+.quote_app {
+    position: relative;
+    box-sizing: border-box;
+    height: 492px;
+    width: 700px;
+    box-shadow: 0px 59px 100px -19px #212121;
+    margin: 153px auto 153px auto;
+}
+
+/* -- Image Section -- */
+.quote_app .image {
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    width: 169px;
+    height: 100%;
+    float: left;
+}
+.quote_app .image .quotation_marks {
+    position: absolute;
+    top: 0;
+    left: 44px;
+    font-family: 'Playfair Display', serif;
+    font-size: 180px;
+    font-weight: bold;
+    letter-spacing: -11px;
+    color: #535057;
+}  
+.quote_app .image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background: #282a37;
+}
+.quote_app .image img {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+.quote_app .image .arrows {
+    box-sizing: border-box;
+    position: absolute;
+    font-size: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+.quote_app .image .left_arrow {
+    left: -35px;
+    bottom: 25px;
+}
+.quote_app .image .right_arrow {
+    right: -35px;
+    bottom: 25px;
+}
+.quote_app:hover .image .left_arrow {
+    left: 39px;
+}
+.quote_app:hover .image .right_arrow {
+    right: 39px;
+}
+.quote_app .image .left_arrow:hover {
+    color: #18a0ff;
+}
+.quote_app .image .right_arrow:hover {
+    color: #18a0ff;
+}
+
+/* -- Quote Section -- */
+.quote_app .quote {
+    overflow: auto;
+    position: relative;
+    box-sizing: border-box;
+    width: 531px;
+    height: 100%;
+    float: right;
+    color: #FEFFFF;
+    background: #18a0ff;
+}
+.quote_app .quote .content {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1em;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+    padding: 49px 40px 0 33px;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+.quote_app .quote .author {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 35px;
+    padding-left: 36px;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+.disappear {
+    opacity: 0;
+}
+
+/* -- Likes -- */
+.likes {
+    overflow: hidden;
+    border-radius: 17px;
+    box-sizing: border-box;
+    height: 30px;
+    width: 64px;
+    position: absolute;
+    top: 21px;
+    right: 21px;
+    background-color: rgba(0,0,0,.1);
+    padding-left: 7px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+.likes i {
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+    transition: all 300ms linear;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+}
+.likes:hover i {
+    color: #d93e2d;
+}
+.likes p {
+    position: relative;
+    top: 0;
+    display: inline;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+}
+.likes p.scroll_up {
+    top: -30px;
+}
+.likes p.below {
+    top: 30px;
+}
+.no_transition {
+    transition: none!important;
+}
+
+
+
+
+
+
+
+
+
