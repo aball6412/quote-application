@@ -92,6 +92,7 @@ function switch_quotes() {
 }
 
 
+//Create a list of quotes to loop through
 var quote_tracker = 0;
 var quote_list = [
     {
@@ -121,19 +122,19 @@ var quote_list = [
     {
         author: "-Steve Jobs",
         quote: "I want to put a ding in the universe.",
-        likes: 212,
+        likes: 572,
         image: "jobs.png"
     },
     {
         author: "-Barney Stinson",
         quote: "Ted, I'm gonna teach you how to live.",
-        likes: 482,
+        likes: 189,
         image: "barney.png"
     },
     {
         author: "-Michael Scott",
         quote: "If the salad is on top, I send it back.",
-        likes: 482,
+        likes: 121,
         image: "michael.png"
     },
     {
@@ -145,13 +146,13 @@ var quote_list = [
     {
         author: "-Dylan Thomas",
         quote: "Do not go gentle into that good night.",
-        likes: 304,
+        likes: 822,
         image: "dylan.png"
     },
     {
         author: "-Yogi Berra",
         quote: "When you come to a fork in the road, take it.",
-        likes: 304,
+        likes: 298,
         image: "yogi.png"
     },
     
@@ -165,7 +166,7 @@ var links = document.getElementsByClassName("likes")[0];
 links.addEventListener("click", increase_likes);
 
 
-//Add listeners for switching quotes
+//Add listeners for clicking left or right arrows
 var right_arrow = document.getElementsByClassName("right_arrow")[0];
 right_arrow.addEventListener("click", switch_quotes);
 
