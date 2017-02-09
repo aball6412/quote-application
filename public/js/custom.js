@@ -28,6 +28,7 @@ function increase_likes() {
     
 }
 
+//Function for switching quotes
 function switch_quotes() {
     
     
@@ -87,8 +88,6 @@ function switch_quotes() {
         document.getElementsByClassName("pic")[0].className = "pic";  
         
     }, 610);
-    
-    
 
 }
 
@@ -112,7 +111,49 @@ var quote_list = [
         quote: "The biggest risk is not taking any risk.",
         likes: 637,
         image: "zuck.png"
-    }
+    },
+    {
+        author: "-Dr. House",
+        quote: "We all make mistakes, and we all pay a price.",
+        likes: 212,
+        image: "house.png"
+    },
+    {
+        author: "-Steve Jobs",
+        quote: "I want to put a ding in the universe.",
+        likes: 212,
+        image: "jobs.png"
+    },
+    {
+        author: "-Barney Stinson",
+        quote: "Ted, I'm gonna teach you how to live.",
+        likes: 482,
+        image: "barney.png"
+    },
+    {
+        author: "-Michael Scott",
+        quote: "If the salad is on top, I send it back.",
+        likes: 482,
+        image: "michael.png"
+    },
+    {
+        author: "-Richard Hendricks",
+        quote: "Jobs was a poser. He didn't even write code.",
+        likes: 304,
+        image: "richard.png"
+    },
+    {
+        author: "-Dylan Thomas",
+        quote: "Do not go gentle into that good night.",
+        likes: 304,
+        image: "dylan.png"
+    },
+    {
+        author: "-Yogi Berra",
+        quote: "When you come to a fork in the road, take it.",
+        likes: 304,
+        image: "yogi.png"
+    },
     
 ]
 
